@@ -1,0 +1,15 @@
+[project]
+name = "google-ai-pro-demos"
+version = "0.1.0"
+description = "Google AI Pro 订阅权益说明文档、gemini-api-cli 演示脚本与 google-genai (Interactions API) Python Demos"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=3.5.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
